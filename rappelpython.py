@@ -33,4 +33,10 @@ while i <= 100:
     i += 2  # Passer au nombre pair suivant
 print("La somme des nombres pairs entre 1 et 100 est :", somme)
 
+
+def somme(a, b):
+    return a + b
+resultat = somme(5, 3)
+print("La somme est :", resultat)
+
     
