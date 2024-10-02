@@ -76,3 +76,17 @@ class Personne:
 personne1 = Personne("Sofian")
 personne1.se_presenter()
 
+
+class Rectangle:
+    def __init__(self, largeur, hauteur):
+        self.largeur = largeur
+        self.hauteur = hauteur
+    def aire(self):
+        return self.largeur * self.hauteur
+    def perimetre(self):
+        return 2 * (self.largeur + self.hauteur)
+rectangle1 = Rectangle(5, 3)
+print("Aire :", rectangle1.aire())
+print("Périmètre :", rectangle1.perimetre())
+
+
