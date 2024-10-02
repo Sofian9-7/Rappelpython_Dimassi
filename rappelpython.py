@@ -55,3 +55,12 @@ print("Le maximum est :", maximum)
 liste_nombres = [1, 2, 3, 4, 5]
 liste_nombres.append(6)
 print("Liste après ajout du nombre 6 :", liste_nombres)
+
+
+dictionnaire = {
+    'nom': 'Sofian',
+    'age': 27,
+    'ville': 'Sousse'
+}
+cle = 'age'
+print(f"La valeur de la clé '{cle}' est :", dictionnaire[cle])
