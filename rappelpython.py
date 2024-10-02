@@ -43,3 +43,10 @@ print("La somme est :", resultat)
 def saluer(nom):
     print(f"Bonjour, {nom} !")
 saluer("Sofian")
+
+
+def trouver_maximum(liste):
+    return max(liste)
+nombres = [3, 1, 4, 1, 5, 9, 2, 6, 5]
+maximum = trouver_maximum(nombres)
+print("Le maximum est :", maximum)
