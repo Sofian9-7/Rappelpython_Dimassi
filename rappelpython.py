@@ -17,3 +17,9 @@ elif nombre < 0:
     print("Le nombre est négatif.")
 else:
     print("Le nombre est nul.")
+
+
+i = 1  
+while i <= 5:
+    print(i)
+    i += 1
