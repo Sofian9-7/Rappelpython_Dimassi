@@ -50,3 +50,8 @@ def trouver_maximum(liste):
 nombres = [3, 1, 4, 1, 5, 9, 2, 6, 5]
 maximum = trouver_maximum(nombres)
 print("Le maximum est :", maximum)
+
+
+liste_nombres = [1, 2, 3, 4, 5]
+liste_nombres.append(6)
+print("Liste après ajout du nombre 6 :", liste_nombres)
