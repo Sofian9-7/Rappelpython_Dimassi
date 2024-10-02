@@ -40,3 +40,6 @@ resultat = somme(5, 3)
 print("La somme est :", resultat)
 
     
+def saluer(nom):
+    print(f"Bonjour, {nom} !")
+saluer("Sofian")
