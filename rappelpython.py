@@ -64,3 +64,15 @@ dictionnaire = {
 }
 cle = 'age'
 print(f"La valeur de la clé '{cle}' est :", dictionnaire[cle])
+
+
+class Personne:
+    def __init__(self, nom):
+        self.nom = nom
+
+    def se_presenter(self):
+        print("Bonjour, je m'appelle", self.nom)
+
+personne1 = Personne("Sofian")
+personne1.se_presenter()
+
