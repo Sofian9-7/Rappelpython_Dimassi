@@ -90,3 +90,10 @@ print("Aire :", rectangle1.aire())
 print("Périmètre :", rectangle1.perimetre())
 
 
+class Cercle:
+    def __init__(self, rayon):
+        self.rayon = rayon
+    def aire(self):
+        return 3.14 * (self.rayon ** 2)
+cercle1 = Cercle(4)
+print("Aire du cercle :", cercle1.aire())
